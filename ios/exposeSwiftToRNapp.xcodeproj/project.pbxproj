@@ -15,6 +15,11 @@
 		37E64742B5EDAFAB063C2EFB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5ECE9BB6BEFCE1DB0A566F61 /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-exposeSwiftToRNapp-exposeSwiftToRNappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-exposeSwiftToRNapp-exposeSwiftToRNappTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F2601F422C81B3E200EDFE6E /* TextSettingsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2601F412C81B3E200EDFE6E /* TextSettingsSwiftUIView.swift */; };
+		F2601F452C81B4D600EDFE6E /* TextSettingsSwiftUIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2601F442C81B4D600EDFE6E /* TextSettingsSwiftUIViewModel.swift */; };
+		F2601F482C81B53D00EDFE6E /* TextSettingHostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2601F472C81B53D00EDFE6E /* TextSettingHostingView.swift */; };
+		F2601F4B2C81B7E900EDFE6E /* TextSettingsViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2601F4A2C81B7E900EDFE6E /* TextSettingsViewManager.swift */; };
+		F2601F4D2C81B84300EDFE6E /* TextSettingsViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F2601F4C2C81B84300EDFE6E /* TextSettingsViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +48,16 @@
 		5709B34CF0A7D63546082F79 /* Pods-exposeSwiftToRNapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exposeSwiftToRNapp.release.xcconfig"; path = "Target Support Files/Pods-exposeSwiftToRNapp/Pods-exposeSwiftToRNapp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-exposeSwiftToRNapp-exposeSwiftToRNappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exposeSwiftToRNapp-exposeSwiftToRNappTests.debug.xcconfig"; path = "Target Support Files/Pods-exposeSwiftToRNapp-exposeSwiftToRNappTests/Pods-exposeSwiftToRNapp-exposeSwiftToRNappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-exposeSwiftToRNapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-exposeSwiftToRNapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5ECE9BB6BEFCE1DB0A566F61 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = exposeSwiftToRNapp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		5ECE9BB6BEFCE1DB0A566F61 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = exposeSwiftToRNapp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = exposeSwiftToRNapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-exposeSwiftToRNapp-exposeSwiftToRNappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exposeSwiftToRNapp-exposeSwiftToRNappTests.release.xcconfig"; path = "Target Support Files/Pods-exposeSwiftToRNapp-exposeSwiftToRNappTests/Pods-exposeSwiftToRNapp-exposeSwiftToRNappTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F2601F402C81B3E100EDFE6E /* exposeSwiftToRNapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "exposeSwiftToRNapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		F2601F412C81B3E200EDFE6E /* TextSettingsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSettingsSwiftUIView.swift; sourceTree = "<group>"; };
+		F2601F442C81B4D600EDFE6E /* TextSettingsSwiftUIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSettingsSwiftUIViewModel.swift; sourceTree = "<group>"; };
+		F2601F472C81B53D00EDFE6E /* TextSettingHostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSettingHostingView.swift; sourceTree = "<group>"; };
+		F2601F4A2C81B7E900EDFE6E /* TextSettingsViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSettingsViewManager.swift; sourceTree = "<group>"; };
+		F2601F4C2C81B84300EDFE6E /* TextSettingsViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextSettingsViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +100,9 @@
 		13B07FAE1A68108700A75B9A /* exposeSwiftToRNapp */ = {
 			isa = PBXGroup;
 			children = (
+				F2601F492C81B7BD00EDFE6E /* ViewManager */,
+				F2601F462C81B51600EDFE6E /* HostingView */,
+				F2601F432C81B43F00EDFE6E /* SwiftUIView */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -97,6 +111,7 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				5ECE9BB6BEFCE1DB0A566F61 /* PrivacyInfo.xcprivacy */,
+				F2601F402C81B3E100EDFE6E /* exposeSwiftToRNapp-Bridging-Header.h */,
 			);
 			name = exposeSwiftToRNapp;
 			sourceTree = "<group>";
@@ -151,6 +166,32 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-exposeSwiftToRNapp-exposeSwiftToRNappTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2601F432C81B43F00EDFE6E /* SwiftUIView */ = {
+			isa = PBXGroup;
+			children = (
+				F2601F412C81B3E200EDFE6E /* TextSettingsSwiftUIView.swift */,
+				F2601F442C81B4D600EDFE6E /* TextSettingsSwiftUIViewModel.swift */,
+			);
+			name = SwiftUIView;
+			sourceTree = "<group>";
+		};
+		F2601F462C81B51600EDFE6E /* HostingView */ = {
+			isa = PBXGroup;
+			children = (
+				F2601F472C81B53D00EDFE6E /* TextSettingHostingView.swift */,
+			);
+			name = HostingView;
+			sourceTree = "<group>";
+		};
+		F2601F492C81B7BD00EDFE6E /* ViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				F2601F4A2C81B7E900EDFE6E /* TextSettingsViewManager.swift */,
+				F2601F4C2C81B84300EDFE6E /* TextSettingsViewManager.m */,
+			);
+			name = ViewManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +252,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -398,8 +439,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2601F4B2C81B7E900EDFE6E /* TextSettingsViewManager.swift in Sources */,
+				F2601F422C81B3E200EDFE6E /* TextSettingsSwiftUIView.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				F2601F452C81B4D600EDFE6E /* TextSettingsSwiftUIViewModel.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				F2601F4D2C81B84300EDFE6E /* TextSettingsViewManager.m in Sources */,
+				F2601F482C81B53D00EDFE6E /* TextSettingHostingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-exposeSwiftToRNapp-exposeSwiftToRNappTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -445,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-exposeSwiftToRNapp-exposeSwiftToRNappTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = exposeSwiftToRNappTests/Info.plist;
@@ -486,6 +534,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = exposeSwiftToRNapp;
+				SWIFT_OBJC_BRIDGING_HEADER = "exposeSwiftToRNapp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -512,6 +561,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = exposeSwiftToRNapp;
+				SWIFT_OBJC_BRIDGING_HEADER = "exposeSwiftToRNapp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -590,10 +640,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -666,10 +713,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
