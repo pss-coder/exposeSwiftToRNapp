@@ -1,6 +1,6 @@
 import { useState } from "react";
 import {StyleSheet, View, Text, Button, SafeAreaView } from "react-native";
-import { TextSettingsView } from "./Native";
+import { HelloTextView, TextSettingsView } from "./Native";
 
 function App(): React.JSX.Element {
 
@@ -24,8 +24,17 @@ const [isBold, setIsBold] = useState(false);
 
   return(
     <SafeAreaView style = { styles.container } >
+
+      {/* <Text>Just React Native</Text> */}
+
+    {/* <HelloTextView
+              style={
+                {
+                }
+              }
+            /> */}
+
       <View style = { styles.wrapper }>
-        
       <Text style={{ 
           fontSize: 50,
           color: 'red',
@@ -33,7 +42,6 @@ const [isBold, setIsBold] = useState(false);
           fontStyle: isItalic ? 'italic' : 'normal',
           textDecorationLine: isUnderline ? 'underline' : 'none',
           }}>{currentName}</Text>
-
         <Button title = "Change Name" onPress = { handleChangeName }/>
       </View>
 
@@ -54,7 +62,7 @@ const [isBold, setIsBold] = useState(false);
             }
           }
           />
-
+          
     </SafeAreaView>
   );
 }
@@ -64,7 +72,8 @@ export default App;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'stretch'
+    alignItems: 'stretch',
+    justifyContent: 'center'
   },
   wrapper: {
     flex: 1,
